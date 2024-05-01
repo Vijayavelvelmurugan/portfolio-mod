@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles for highlighting text and images */
+        .highlight-text {
+            color: #FFD700; 
+        }
+
+        .highlight-image {
+            border: 5px solid #FFD700; 
+            border-radius: 10px;
+        }
+        @media (min-width: 992px) {
+       .top-header-section {
+        background-position-y: 20px !important;
+       }
+       .top-header-section-txt {
+        padding-top: 180px;
+       }
+       .about-content {
+        padding-top: 100px;
+       }
+       }
+      
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><em class="text-light">Portfolio</em></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#skill">Skill</a>
+                        </li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=917010735168&text=%F0%9F%91%8D%F0%9F%98%80%0AHi%20there%20you%20can%20contact%20me%20anytime%20whenever%20you%20need%20!" class="btn btn-primary ml-3">Message me</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Part one -->
+    <section class="top-header-section" style="background-image: url('./part1.jpeg');  background-size: cover; background-position: center; height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center;">
+        <div class="container top-header-section-txt">
+            <div class="row justify-content-center ">
+                <div class="col-md-6">
+                    <div>
+                        <h4 class="text-light highlight-text">Hello, my name is</h4>
+                        <h1 class="text-light highlight-text">Vijayavel <span class="highlight-text">Velmurugan</span></h1>
+                        <h3 class="text-light highlight-text">I'm a Python Fullstack Developer</h3>
+                        <form action="" class="d-flex flex-wrap justify-content-center justify-content-md-start mt-4">
+                            <input type="email" name="email" id="mail" class="form-control me-2 mb-2" placeholder="Enter Your Email">
+                            <button type="submit" class="btn btn-primary mb-2">Let's Start</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part two -->
+    <section style="background-color: black; height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <div class="container" id="about">
+            <div class="row justify-content-center">
+                <div class="col-md-6 about-content">
+                    <div>
+                        <h2 class="text-light highlight-text">About me</h2>
+                        <h5 class="text-light highlight-text">FullStack <span class="highlight-text">Developer</span></h5>
+                        <p class="text-light highlight-text">I am a trainee in Qspider, trained as a full stack developer. I have experience with HTML5, CSS3,
+                            JavaScript, Bootstrap, Python, SQL, and Django. I have worked on various projects including E-commerce websites and collage projects.</p>
+                        <p class="text-light highlight-text">I am who you are.</p>
+                        <span class="text-light highlight-text">Here are projects</span>
+                        <a href="#" class="btn btn-primary">For project</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./part2.jpeg" alt="About me image" class="img-fluid highlight-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part three -->
+    <section>
+        <div class="container-fluid py-5" id="skill" style="background-color: black;">
+            <div class="row justify-content-center">
+                <!-- card one -->
+                <div class="col-md-4 mb-4 ">
+                    <div class="card text-center bg-dark text-primary">
+                        <div class="card-body">
+                            <i class="fa-solid fa-bars mb-3 text-primary"></i>
+                            <h5 class="card-title  text-light">Web Development</h5>
+                            <p class="card-text  text-light">When creating a website, the following two goals should be prioritized: The most important requirement is that it should work on all devices. It also has to happen as soon as it is practical. I'm skilled with JavaScript, HTML5, CSS3, and Bootstrap.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card two -->
+                <div class="col-md-4 mb-4 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body ">
+                            <i class="fa-solid fa-user mb-3 text-primary"></i>
+                            <h5 class="card-title  text-light">Python Development</h5>
+                            <p class="card-text  text-light ">Scalable application development is my passion as an experienced Python developer. Competent with contemporary frameworks and dedicated to producing readable, effective code. Committed to using cutting-edge technology and lifelong learning.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card three -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body">
+                            <i class="fa-solid fa-bell mb-3 text-primary"></i>
+                            <h5 class="card-title  text-light">Database</h5>
+                            <p class="card-text  text-light">Proficient SQL developer with a knack for designing efficient databases and optimizing queries. Experienced in managing large datasets, ensuring data integrity, and creating insightful reports. Let’s turn data into actionable insights!      </p>
+                            <div class="pt-4 ">
+                                <a href="#" class="btn btn-primary ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part four -->
+    <section class="bg-dark">
+        <div class="container-fluid" style="padding-top: 50px; padding-bottom: 50px;">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p class="text-light highlight-text">Let Me Get You A Beautiful Website with full functionality</p>
+                    <a href="https://api.whatsapp.com/send?phone=917010735168&text=%F0%9F%91%8D%F0%9F%98%80%0AHi%20there%20you%20can%20contact%20me%20anytime%20whenever%20you%20need%20!" class="btn btn-primary">Message Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: black;">
+        <div class="container-fluid" style="padding-top: 50px; padding-bottom: 50px;">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h2 class="text-light highlight-text">Vijayavel Velmurugan</h2>
+                    <p class="text-light highlight-text">I am a fresher seeking for a job and I have done courses on HTML5, CSS3, JavaScript (Programming Language), Bootstrap, SQL Plus, Python (Programming language), and Django.</p>
+                    <p class="text-light highlight-text">To contact me, click below</p>
+                    <div class="iconb" id="contact">
+                        <a style="padding-right: 20px; " href="#"><i class="fa-brands fa-facebook text-primary"></i></a>
+                        <a style="padding-right: 20px; " href="#"><i class="fa-brands fa-twitter text-primary"></i></a>
+                        <a style="padding-right: 20px; " href="#"><i class="fa-brands fa-instagram text-primary"></i></a>
+                    </div>
+                    <p class="text-secondary highlight-text">@Copyright By Vijayavel Velmurugan</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
